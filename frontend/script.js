@@ -25,7 +25,7 @@ async function getWeather(){
     try{
 
         const response=await fetch(
-            `http://127.0.0.1:8000/predict-live?city=${city}`
+            `https://weather-ai-backend-hn4p.onrender.com/predict-live?city=${city}`
         )
 
         const data=await response.json()
