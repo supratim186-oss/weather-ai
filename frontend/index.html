@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ML Weather App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="background-glow"></div>
+
+    <div class="container">
+
+        <div class="header">
+
+            <h1>🌦 ML Weather Predictor</h1>
+
+            <p>Real-time AI powered rain prediction</p>
+
+        </div>
+
+        <div class="search-box">
+
+            <input type="text" id="cityInput" placeholder="Enter city name">
+
+            <button onclick="getWeather()">Search</button>
+
+        </div>
+
+        <div id="result" class="result-card"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
